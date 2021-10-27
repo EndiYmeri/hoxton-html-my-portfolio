@@ -11,7 +11,7 @@ html{
 body{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: #000;
+    background-color: #222;
     color: #fff;
     font-family: 'Zen Kurenaido', sans-serif;
 }
@@ -31,7 +31,7 @@ header{
 .logo{
     padding: 0.8rem 2rem;
     font-size: 2rem;
-    background-color: #000;
+    background-color: #222;
 }
 .logo a{
     text-decoration: none;
@@ -39,7 +39,7 @@ header{
 }
 header nav{
     background-color: #fff;
-    color: #000;
+    color: #222;
     border-bottom-left-radius: 1rem;
 }
 nav ul{
@@ -55,7 +55,7 @@ list-style-type: none;
 }
 li a{
     text-decoration: none;
-    color: #000;
+    color: #222;
     font-size: 1.2rem;
 }
 
