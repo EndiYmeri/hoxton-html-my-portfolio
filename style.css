@@ -71,10 +71,16 @@ li a:hover{
     height: 100vh;
     display: grid;
     place-items: center;
+    text-align: center;
+}
+.hero-section svg{
+    height: 80%;
 }
 
 h1{
-    font-size: 4rem
+    text-align: center;
+    font-size: 4rem;
+    margin-top:2rem;
 }
 
 section{
@@ -127,6 +133,27 @@ article a img{
 }
 h4{
     font-size: 1.5rem;
+}
+.experience{
+    background-color: #222;
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.experience li{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.white-background{
+    background-color:#fff;
+    color: #222;
+}
+.experience svg{
+    width: 50px;
 }
 
 footer{
